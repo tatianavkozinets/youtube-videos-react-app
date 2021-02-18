@@ -9,7 +9,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
       onVideoSelect={onVideoSelect}
     />
   ));
-  return <div className="ui relaxed divided list">{renderdList}</div>;
+  return <div className="ui  divided list">{renderdList}</div>;
 };
 
 export default VideoList;
